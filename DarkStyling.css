@@ -52,6 +52,12 @@ a:visited {
  cursor: pointer;
 }
 
+.btn:disabled {
+ color: grey;
+ background-color: darkgrey;
+ border-color: grey;
+}
+
 .btn:focus {
  
 }
@@ -84,6 +90,12 @@ button:hover {
  box-shadow: 3px 3px 10px black;
  transition: .25s;
  cursor: pointer;
+}
+
+button:disabled {
+ color: grey;
+ background-color: darkgrey;
+ border-color: grey;
 }
 
 button:focus {
