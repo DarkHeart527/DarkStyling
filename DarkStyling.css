@@ -1,0 +1,518 @@
+/*****************Paragraph Element Styling*****************/
+
+p {
+ display: block;
+}
+
+/*****************Links*****************/
+
+a {
+ color: blue;
+ cursor: default;
+ text-decoration: none;
+}
+
+a:hover {
+ cursor: pointer;
+ color: green;
+ text-decoration: underline;
+}
+
+a:visited {
+ color: purple;
+}
+
+/*****************Buttons*****************/
+
+.btn {
+ border-radius: 5px;
+ color: blue;
+ border-color: blue;
+ padding: 1px 6px;
+ font-size: 15px;
+ border-width: 3px;
+ border-style: outset;
+ background-color: lightblue;
+ transition: .25s;
+ font: 13.3333px Arial;
+ width: auto;
+ text-align: center;
+ display: inline-block;
+}
+
+.btn:active {
+ color: lightblue;
+ border-color: lightblue;
+ background-color: blue;
+}
+
+.btn:hover {
+ box-shadow: 3px 3px 10px black;
+ transition: .25s;
+ cursor: pointer;
+}
+
+.btn:focus {
+ 
+}
+
+/* Button Element */
+
+button {
+ border-radius: 5px;
+ color: blue;
+ border-color: blue;
+ font-size: 15px;
+ border-width: 3px;
+ font: 13.3333px Arial;
+ padding: 1px 6px;
+ border-style: outset;
+ background-color: lightblue;
+ transition: .25s;
+ width: auto;
+ text-align: center;
+ display: inline-block;
+}
+
+button:active {
+ color: lightblue;
+ border-color: lightblue;
+ background-color: blue;
+}
+
+button:hover {
+ box-shadow: 3px 3px 10px black;
+ transition: .25s;
+ cursor: pointer;
+}
+
+button:focus {
+ 
+}
+
+/*****************Html/Body*****************/
+
+html,body {
+ background-color: transparent;
+}
+
+/*****************Coloring*****************/
+
+/* Black */
+
+.black-text {
+ color: black;
+}
+
+.black-text-hover:hover {
+ color: black;
+}
+
+.black-text-active:active {
+ color: black;
+}
+
+.black-background-visited:visited {
+ color: black;
+}
+
+.black-background-focus:focus {
+ color: black;
+}
+/* Background */
+.black-background {
+ background-color: black;
+}
+
+.black-background-hover:hover {
+ background-color: black;
+}
+
+.black-background-active:active {
+ background-color: black;
+}
+
+.black-background-visited:visited {
+ background-color: black;
+}
+
+.black-background-focus:focus {
+ background-color: black;
+}
+/* Border */
+.black-border {
+ border-color: black;
+}
+
+.black-border-hover:hover {
+ border-color: black;
+}
+
+.black-border-active:active {
+ border-color: black;
+}
+
+.black-border-visited:visited {
+ border-color: black;
+}
+
+.black-border-focus:focus {
+ border-color: black;
+}
+
+/* Blue */
+
+.blue-text {
+ color: blue;
+}
+
+.blue-text-hover:hover {
+ color: blue;
+}
+
+.blue-text-active:active {
+ color: blue;
+}
+
+.blue-background-visited:visited {
+ color: blue;
+}
+
+.blue-background-focus:focus {
+ color: blue;
+}
+/* Background */
+.blue-background {
+ background-color: blue;
+}
+
+.blue-background-hover:hover {
+ background-color: blue;
+}
+
+.blue-background-active:active {
+ background-color: blue;
+}
+
+.blue-background-visited:visited {
+ background-color: blue;
+}
+
+.blue-background-focus:focus {
+ background-color: blue;
+}
+/* Border */
+.blue-border {
+ border-color: blue;
+}
+
+.blue-border-hover:hover {
+ border-color: blue;
+}
+
+.blue-border-active:active {
+ border-color: blue;
+}
+
+.blue-border-visited:visited {
+ border-color: blue;
+}
+
+.blue-border-focus:focus {
+ border-color: blue;
+}
+
+/* red */
+
+.red-text {
+ color: red;
+}
+
+.red-text-hover:hover {
+ color: red;
+}
+
+.red-text-active:active {
+ color: red;
+}
+
+.red-background-visited:visited {
+ color: red;
+}
+
+.red-background-focus:focus {
+ color: red;
+}
+/* Background */
+.red-background {
+ background-color: red;
+}
+
+.red-background-hover:hover {
+ background-color: red;
+}
+
+.red-background-active:active {
+ background-color: red;
+}
+
+.red-background-visited:visited {
+ background-color: red;
+}
+
+.red-background-focus:focus {
+ background-color: red;
+}
+/* Border Color */
+.red-border {
+ border-color: red;
+}
+
+.red-border-hover:hover {
+ border-color: red;
+}
+
+.red-border-active:active {
+ border-color: red;
+}
+
+.red-border-visited:visited {
+ border-color: red;
+}
+
+.red-border-focus:focus {
+ border-color: red;
+}
+
+/*****************Sizing*****************/
+/* Width */
+.width-Full {
+ width: 100%;
+}
+
+.width-80perc {
+ width: 80%;
+}
+
+.width-60perc {
+ width: 60%;
+}
+
+.width-40perc {
+ width: 40%;
+}
+
+.width-20perc {
+ width: 20%;
+}
+
+.width-Full-hover:hover {
+ width: 100%;
+}
+
+.width-80perc-hover:hover {
+ width: 80%;
+}
+
+.width-60perc-hover:hover {
+ width: 60%;
+}
+
+.width-40perc-hover:hover {
+ width: 40%;
+}
+
+.width-20perc-hover:hover {
+ width: 20%;
+}
+/* Height */
+.height-Full {
+ height: 100%;
+}
+
+.height-80perc {
+ height: 80%;
+}
+
+.height-60perc {
+ height: 60%;
+}
+
+.height-40perc {
+ height: 40%;
+}
+
+.height-20perc {
+ height: 20%;
+}
+
+.height-Full-hover:hover {
+ height: 100%;
+}
+
+.height-80perc-hover:hover {
+ height: 80%;
+}
+
+.height-60perc-hover:hover {
+ height: 60%;
+}
+
+.height-40perc-hover:hover {
+ height: 40%;
+}
+
+.height-20perc-hover:hover {
+ height: 20%;
+}
+
+/*****************Transitions*****************/
+
+.transition-1 {
+ transition: 1s;
+}
+
+.transition-3 {
+ transition: 3s;
+}
+
+.transition-5 {
+ transition: 5s;
+}
+
+/*****************Visibilities*****************/
+
+.hidden {
+ visibility: hidden;
+}
+
+.visible {
+ visibility: visible;
+}
+
+.hidden-hover:hover {
+ visibility: hidden;
+}
+
+.visible-hover:hover {
+ visibility: visible;
+}
+
+.hidden-active:active {
+ visibility: hidden;
+}
+
+.visible-active:active {
+ visibility: visible;
+}
+
+.hidden-focus:focus {
+ visibility: hidden;
+}
+
+.visible-focus:focus {
+ visibility: visible;
+}
+
+/*****************Messages*****************/
+
+.notice {
+ width: auto;
+ text-align: center;
+ display: inline-flex;
+ background-color: yellow;
+ color: black;
+ font-size: 20px;
+ border-style: dashed;
+ border-width: 5px;
+ transition: 0.350s;
+ position: initial;
+ margin-top: 0px;
+ margin-bottom: 15px;
+ padding: 1px 6px;
+}
+
+.notice:hover {
+ font-size: 35px;
+ transition: 0.75s;
+ margin-bottom: -2px;
+}
+
+.danger {
+ width: auto;
+ text-align: center;
+ display: inline-flex;
+ background-color: pink;
+ color: red;
+ font-size: 20px;
+ border-style: dotted;
+ border-color: red;
+ border-width: 5px;
+ transition: 0.350s;
+ padding: 1px 6px;
+ position: initial;
+ margin-top: 0px;
+ margin-bottom: 15px;
+}
+
+.danger:hover {
+ font-size: 35px;
+ transition: 0.75s;
+ margin-bottom: -2px;
+}
+
+.good {
+ width: auto;
+ text-align: center;
+ display: inline-flex;
+ background-color: lightgreen;
+ color: green;
+ font-size: 20px;
+ border-style: solid;
+ border-color: green;
+ border-width: 5px;
+ transition: 0.350s;
+ padding: 1px 6px;
+ position: initial;
+ margin-top: 0px;
+ margin-bottom: 15px;
+}
+
+.good:hover {
+ font-size: 35px;
+ transition: 0.75s;
+ margin-bottom: -2px;
+}
+
+.bad {
+ width: auto;
+ text-align: center;
+ display: inline-flex;
+ background-color: darkred;
+ color: red;
+ font-size: 20px;
+ border-style: double;
+ border-color: red;
+ border-width: 5px;
+ transition: 0.350s;
+ padding: 1px 6px;
+ position: initial;
+ margin-top: 0px;
+ margin-bottom: 15px;
+}
+
+.bad:hover {
+ font-size: 35px;
+ transition: 0.75s;
+ margin-bottom: -2px;
+}
+
+/*****************None Yet*****************/
+/*****************None Yet*****************/
+/*****************None Yet*****************/
+/*****************None Yet*****************/
+/*****************None Yet*****************/
+/*****************None Yet*****************/
+/*****************None Yet*****************/
+/*****************None Yet*****************/
+/*****************None Yet*****************/
