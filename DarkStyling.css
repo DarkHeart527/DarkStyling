@@ -33,7 +33,7 @@ a:visited {
  border-width: 3px;
  border-style: outset;
  background-color: lightblue;
- transition: .25s;
+ transition: 1s;
  font: 13.3333px Arial;
  width: auto;
  text-align: center;
@@ -48,7 +48,7 @@ a:visited {
 
 .btn:hover {
  box-shadow: 3px 3px 10px black;
- transition: .25s;
+ transition: 1s;
  cursor: pointer;
 }
 
@@ -56,6 +56,10 @@ a:visited {
  color: grey;
  background-color: darkgrey;
  border-color: grey;
+}
+
+.btn:disabled:hover {
+ cursor: default;
 }
 
 .btn:focus {
@@ -74,7 +78,7 @@ button {
  padding: 1px 6px;
  border-style: outset;
  background-color: lightblue;
- transition: .25s;
+ transition: 1s;
  width: auto;
  text-align: center;
  display: inline-block;
@@ -88,7 +92,7 @@ button:active {
 
 button:hover {
  box-shadow: 3px 3px 10px black;
- transition: .25s;
+ transition: 1s;
  cursor: pointer;
 }
 
@@ -96,6 +100,10 @@ button:disabled {
  color: grey;
  background-color: darkgrey;
  border-color: grey;
+}
+
+button:disabled:hover {
+ cursor: default;
 }
 
 button:focus {
