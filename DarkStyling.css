@@ -1,5 +1,11 @@
 /*****************Paragraph Element Styling*****************/
 
+*:disabled {
+ color: red;
+}
+
+/*****************Paragraph Element Styling*****************/
+
 p {
  display: block;
 }
