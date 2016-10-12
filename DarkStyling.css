@@ -1,7 +1,17 @@
 /*****************-webkit- Removals*****************/
+
 * {
 -webkit-appearance: none;
 }
+
+/*****************Input - Ranges*****************/
+
+input[type="range"]::-webkit-slider-runnable-track {
+ background-color: black;
+ box-shadow: 3px 3px 3px black;
+ color: black;
+}
+
 /*****************Paragraph Element Styling*****************/
 
 *:disabled {
