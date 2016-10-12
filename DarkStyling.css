@@ -10,7 +10,7 @@ input[type="range"]::-webkit-slider-runnable-track {
  background-color: black;
  box-shadow: 3px 3px 3px black;
  color: black;
- height: 25%;
+ height: 2.5%;
 }
 
 /*****************Paragraph Element Styling*****************/
