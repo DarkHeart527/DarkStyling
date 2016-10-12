@@ -1,3 +1,7 @@
+/*****************-webkit- Removals*****************/
+* {
+-webkit-
+}
 /*****************Paragraph Element Styling*****************/
 
 *:disabled {
