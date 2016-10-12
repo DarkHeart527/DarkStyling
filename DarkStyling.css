@@ -1,6 +1,6 @@
 /*****************-webkit- Removals*****************/
 * {
--webkit-
+-webkit-appearance: none;
 }
 /*****************Paragraph Element Styling*****************/
 
